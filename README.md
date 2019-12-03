@@ -11,3 +11,5 @@ I build it using version 0.37.6 so it might give mixed results on (much) earlier
  - Go to the options and change the theme to lightslategray
  
  
+## Screenshots
+![example lightslategray theme trilium](lightslategray.png)

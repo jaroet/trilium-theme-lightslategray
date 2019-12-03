@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/custom/fonts/raleway.woff2') format('woff2');
+  }
+  
+  body.theme-jar {
+      --main-font-family: 'Verdana' !important;
+      --main-font-size: normal;
+      --tree-font-family: inherit;
+      --tree-font-size: normal;
+      --detail-font-family: inherit;
+      --detail-font-size: normal;
+      --detail-text-font-family: 'Verdana' !important;
+      --main-background-color: #e2e6e9;
+      --main-text-color: black;
+      --main-border-color: #8a99a8;
+      --accented-background-color: lightgrey;
+      --more-accented-background-color: #576675; 
+      --header-background-color: #576675;
+      --button-background-color: #c5ccd3;
+      --button-disabled-background-color: grey;
+      --button-border-color: #8a99a8;
+      --button-text-color: black;
+      --button-border-radius: 12px;
+      --muted-text-color: navy;
+      --input-text-color: black;
+      --input-background-color: #c5ccd3;
+      --modal-background-color: lightgrey;
+      --hover-item-text-color: white;
+      --hover-item-background-color: grey;
+      --active-item-text-color: white;
+      --active-item-background-color: #576675;
+      --menu-text-color: black;
+      --menu-background-color: lightgrey;
+      --tooltip-background-color: #e6e6e6;
+      --link-color: blue;
+  }
+  
+  body.theme-jar .note-detail-text {
+      font-size: 100%;
+      --line-height: 1.1; /* less spacing between lines (default=1.5) */    
+  }
+  body.them-jar .fancytree-lastib{
+      line-height:1.3;
+  }
